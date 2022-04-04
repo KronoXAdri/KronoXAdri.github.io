@@ -1,0 +1,124 @@
+body{
+    background-color: rgba(120, 121, 121, 0.548);
+    
+}
+
+header{
+    padding: 0.1%;
+    background-color: slategray;
+}
+
+nav{
+    padding: 0.1%;
+    background-color: rgb(75, 74, 74);
+  
+}
+
+
+#Lista2 ol{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Lista2 li{
+    display: inline;
+    list-style-type: none;
+    padding: 0% 5.5%;
+}
+
+#Lista2 a:hover {
+    background-color: #3f130f;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 140%;
+}
+
+#Lista2 a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20%;
+}
+
+li a:link {
+    background-color: #f44336;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline-style: solid;
+    outline-color: white;
+}
+
+h2.Esteroides{
+    padding: 0.2%;
+    background-color: rgba(37, 35, 35, 0.445);
+    text-align: center;
+    color: white;
+}
+
+section{
+    padding: 0.1% ;
+    background-color: rgba(76, 89, 102, 0.432);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 1% 0.2%;
+    padding: 1%;
+    background-color: rgba(65, 137, 196, 0.336);
+    text-align: justify;
+    width: 47%;
+    border: #3D0000;
+    border-style: solid;
+    border-radius: 1em;   
+}
+
+h1{
+    text-align: center;
+    color: #3D0000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div{
+    text-align: center;
+}
+
+.Esteroides{
+    color: #b60b0b;
+}
+
+#Nota{
+    border-color: #FF0000;
+    border-width: 120%;
+    border-style: solid;
+    background-color: rgba(42, 48, 48, 0.288);
+    text-align: center;
+    padding: 1%;
+    margin: 1% 0%;
+}
+
+#Nota:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+    cursor: default;
+}
+
+article.Videos{
+    width: 97.5%;
+    border-width: 100%;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgba(65, 137, 196, 0.336);
+}

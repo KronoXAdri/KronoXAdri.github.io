@@ -1,0 +1,133 @@
+body{
+    background-color: rgba(120, 121, 121, 0.548);
+    width: auto;
+}
+
+header{
+    padding: 0.1%;
+    background-color: slategray;
+}
+
+nav{
+    padding: 0.1%;
+    background-color: rgb(75, 74, 74);
+  
+}
+
+#Lista1 ol{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Lista1 li{
+    display: inline;
+    list-style-type: none;
+    padding: 0% 5.5%;
+}
+
+#Lista1 a:hover {
+    background-color: #3f130f;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 140%;
+}
+
+#Lista1 a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20%;
+}
+
+li a:link {
+    background-color: #f44336;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline-style: solid;
+    outline-color: white;
+}
+
+section{
+    padding: 0.1% ;
+    background-color: rgba(76, 89, 102, 0.432);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 1% 0.2%;
+    padding: 1%;
+    background-color: rgba(65, 137, 196, 0.336);
+    text-align: justify;
+    width: 30.5%;
+    border: #3D0000;
+    border-style: solid;
+    border-radius: 1em;   
+}
+
+h1{
+    text-align: center;
+    color: #3D0000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+article h2{
+    padding: 0.2%;
+    background-color: rgba(37, 35, 35, 0.445);
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+.SuplementacionSana{
+    width: 47%;
+
+}
+
+article.Video{
+    width: 97.5%;
+    border-width: 100%;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgba(65, 137, 196, 0.336);
+}
+ footer{
+    border: #3D0000;
+    border-style: solid;
+    border-radius: 1em;   
+    width: 100%;
+    background-color: rgba(65, 137, 196, 0.336);
+    text-align: center;
+    background-image: url(image/jeringa.jpg);
+    background-size: 4%;
+ }
+
+footer p{
+    background-color: rgb(75, 74, 74);
+}
+ 
+footer a{
+    font-size: 120%;
+    color: white;
+    font-weight: bolder;
+ }
+
+
+footer a:hover{
+    font-size: 150%;
+    background-color: rgb(19, 18, 18);
+}
